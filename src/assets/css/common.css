@@ -1,0 +1,19 @@
+@import "reset";
+
+body,html{font-family:arial,'Apple SD Gothic Neo',Helvetica,Tahoma,Geneva,sans-serif;font-size:100%;font-weight:300;line-height:1.5;line-height:100%;margin:0;padding:0;color:#333;border:0;background:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+article,aside,audio,canvas,caption,details,div,figure,footer,header,hgroup,iframe,img,mark,menu,nav,object,section,span,summary,table,tbody,td,tfoot,thead,tr,video{box-sizing:border-box;margin:0;padding:0;border:0}
+a,abbr,address,b,blockquote,cit,code,dd,del,dfn,dl,dt,em,fieldset,h1,h2,h3,h4,h5,h6,hr,i,ins,label,legend,li,ol,p,pre,q,samp,small,strong,sub,sup,ul{font-size:100%;margin:0;padding:0;vertical-align:middle;border:0}
+article,aside,audio,canvas,figcaption,figure,figure img,footer,header,hgroup,nav,section,video{display:block}
+table{box-sizing:border-box;border-spacing:0;border-collapse:collapse}
+table caption,table td,table th{text-align:left;vertical-align:middle}
+a img,fieldset{border:0}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:middle}
+select{-moz-appearance:none;-ms-appearance:none;appearance:none}
+button{cursor:pointer;border:0}
+legend{color:#000}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:300;font-style:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:300;line-height:1}
+caption,hr,legend{font-size:1px;line-height:0;width:0;height:0;text-indent:-9999em}
+a,a:active,a:focus,a:hover,a:link,a:visited{font-size:100%;text-decoration:none;color:#5d6064}
