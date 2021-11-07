@@ -1,8 +1,12 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+Vue.config.productionTip = false
+
 import './assets/css/reset.css';
 
-createApp(App).use(router).mount('#app')
-// import { Swiper, SwiperSlide } from 'swiper/vue';
+new Vue({
+  router,
+  render: h => h(App)
+}).$mount('#app')

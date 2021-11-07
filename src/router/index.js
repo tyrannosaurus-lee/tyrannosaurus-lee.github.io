@@ -1,11 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 import Works from '../views/Works.vue'
 
+Vue.use(VueRouter)
 const About = () => {
   return import(/* webpackChunkName: "about" */ '../views/About.vue')
   // webpackChunkName : 링크값이 입력됐을 때 이 값에 해당하는 컴포넌트 내용만을 불러오겠다.
 }
-
 const routes = [
   {
     path: '/',
@@ -22,11 +23,12 @@ const routes = [
     path: '/Careers',
     name: 'Careers',
     component: () => import(/* webpackChunkName: "Careers" */ '../views/Careers.vue')
-  },
+  }
 ]
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 
